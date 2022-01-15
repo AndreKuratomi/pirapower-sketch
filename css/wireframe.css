@@ -1,0 +1,515 @@
+body.fluid{
+    padding: 0;
+    margin: 0;
+}
+
+div.blur-light{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+}
+
+.button-like{
+    cursor: pointer;
+}
+
+div.blur-dark{
+    background-color: rgba(0,0,0,0.2);
+    color:white;
+}
+
+div.keltoi header nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+div.keltoi header nav img.logo{
+    width: 89px;
+    float: left;
+    padding: 5px;
+}
+
+div.keltoi header nav ul.menu{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+div.keltoi header nav ul.menu li{
+    float: left;
+    padding: 5px;
+}
+
+div.keltoi header nav ul.menu li:hover{
+    cursor: pointer;
+}
+
+div.keltoi header nav ul.menu li:hover ul.sub-menu{
+    display: block;
+}
+
+div.keltoi header nav ul.menu li ul.sub-menu{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    position: absolute;
+    display: none;
+}
+
+div.keltoi header nav ul.menu li ul.sub-menu li{
+    float: none;
+    padding: 5px;
+}
+
+div.keltoi header nav ul.menu a{
+    text-decoration: none;
+}
+
+div.keltoi header nav div.hamburguer{
+    display: none;
+    background-image: url(../img/hamb.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+}
+
+div.keltoi header nav div.hamburguer ul{
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    left: 0;
+    width:100%;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+div.keltoi header nav div.hamburguer:hover  ul{
+    display: inline;
+}
+
+div.keltoi .txt-center{
+    text-align: center;
+}
+
+div.keltoi .txt-left{
+    text-align: left;
+}
+
+div.keltoi .txt-right{
+    text-align: right;
+}
+
+div.keltoi section div.line{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+div.keltoi section div.panel{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+div.keltoi section div.panel.p1{
+    width: 100%;
+}
+
+div.keltoi section div.panel.p2{
+    width: 50%;
+}
+
+div.keltoi section div.panel.p3{
+    width: 33.3333%;
+}
+
+div.keltoi section div.panel.p2-3rds{
+    width: 66.666%;
+}
+
+div.keltoi section div.panel.p4{
+    width: 25%;
+}
+
+div.keltoi section div.panel.pgld{
+    width:38.2%;
+}
+
+div.keltoi section div.panel.pphi{
+    width:61.8%;
+}
+
+div.keltoi section div.panel.p3-4ths{
+    width:75%;
+}
+
+div.keltoi div.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.keltoi div.image.parallax{
+    background-attachment: fixed;
+}
+
+a.btn{
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Height and Width */
+
+div.x1{
+    width: 21px;
+}
+
+div.x2{
+    width: 32px;
+}
+
+div.x3{
+    width: 55px;
+}
+
+div.x4{
+    width: 89px;
+}
+
+div.x5{
+    width: 144px;
+}
+
+div.x6{
+    width: 233px;
+}
+
+div.x7{
+    width: 377px;
+}
+
+div.x8{
+    width: 610px;
+}
+
+div.x9{
+    width: 987px;
+}
+
+div.x10{
+    width: 1024px;
+}
+
+div.y1{
+    height: 21px;
+}
+
+div.y2{
+    height: 32px;
+}
+
+div.y3{
+    height: 55px;
+}
+
+div.y4{
+    height: 89px;
+}
+
+div.y5{
+    height: 144px;
+}
+
+div.y6{
+    height: 233px;
+}
+
+div.y7{
+    height: 377px;
+}
+
+div.y8{
+    height: 610px;
+}
+
+div.y9{
+    height: 987px;
+}
+
+div.y10{
+    height: 1024px;
+}
+
+@media (min-width: 610px) and (max-width: 987px)
+{
+    div.keltoi header nav ul.menu{
+        display: none;
+    }
+    
+    div.keltoi header nav div.hamburguer{
+        display: block;
+    }
+
+    div.keltoi header nav img.logo{
+        width: 55px;
+    }
+
+    div.tablet-y1{
+        height: 13px;
+    }
+
+    div.tablet-y2{
+        height: 21px;
+    }
+    
+    div.tablet-y3{
+        height: 32px;
+    }
+    
+    div.tablet-y4{
+        height: 55px;
+    }
+    
+    div.tablet-y5{
+        height: 89px;
+    }
+    
+    div.tablet-y6{
+        height: 144px;
+    }
+    
+    div.tablet-y7{
+        height: 233px;
+    }
+    
+    div.tablet-y8{
+        height: 377px;
+    }
+    
+    div.tablet-y9{
+        height: 610px;
+    }
+    
+    div.tablet-y10{
+        height: 987px;
+    }
+
+    footer.classic
+    {
+        width: 100%;
+        height: 233px;
+        text-align: center;
+    }
+
+    div.keltoi section div.panel.tablet-p1{
+        width:100%;
+    }
+
+    div.keltoi section div.panel.tablet-p2{
+        width:50%;
+    }
+
+    div.keltoi section div.panel.tablet-p3{
+        width:33.333%
+    }
+
+    div.keltoi section div.panel.tablet-pgld
+    {
+        width:38.2%;
+    }
+
+    div.keltoi section div.panel.tablet-pphi{
+        width:61.8%;
+    }
+}
+
+@media (max-width: 610px)
+{
+    div.keltoi header nav ul.menu{
+        display: none;
+    }
+
+    div.keltoi header nav div.hamburguer{
+        display: block;
+    }
+
+    div.keltoi header nav img.logo{
+        width: 55px;
+    }
+
+    div.mobile-y1{
+        height: 8px;
+    }
+
+    div.mobile-y2{
+        height: 13px;
+    }
+
+    div.mobile-y3{
+        height: 21px;
+    }
+    
+    div.mobile-y4{
+        height: 32px;
+    }
+    
+    div.mobile-y5{
+        height: 55px;
+    }
+    
+    div.mobile-y6{
+        height: 89px;
+    }
+    
+    div.mobile-y7{
+        height: 144px;
+    }
+    
+    div.mobile-y8{
+        height: 233px;
+    }
+    
+    div.mobile-y9{
+        height: 377px;
+    }
+    
+    div.mobile-y10{
+        height: 610px;
+    }
+
+    footer.classic
+    {
+        width: 100%;
+        height: 144px;
+        text-align: center;
+    }
+
+    div.keltoi section div.panel.mobile-p1{
+        width: 100%;
+    }
+
+    div.keltoi section div.panel.mobile-p2{
+        width:50%;
+    }
+
+    div.keltoi section div.panel.tablet-pgld
+    {
+        width:38.2%;
+    }
+
+    div.keltoi section div.panel.tablet-pphi{
+        width:61.8%;
+    }
+}
+
+div.panel.column{
+    float: left;
+}
+
+div.panel.column.right{
+    float: right;
+}
+
+div.panel div.content{
+    margin-left:0.618%;
+    margin-right:0.618%;
+    position: relative;
+}
+
+div.panel div.content.fluid{
+    margin: 0;
+}
+
+div.panel div.box{
+    box-shadow: 3.82px 6.18px 6.18px rgb(55,55,55);
+}
+
+div.panel div.frame{
+    border: 1px solid black;
+}
+
+div.panel div.content div.text-content{
+    position: absolute;
+}
+
+div.keltoi section div.panel div.content img.cover{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* card Hover */
+div.panel.column.p4.mobile-p2.tablet-p2:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Card */
+div.keltoi div.content div.card{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height:auto;
+}
+
+div.keltoi div.content div.card header.card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+div.keltoi div.content div.card header.card img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.keltoi div.content div.card article.card{
+    position: relative;
+    width: 100%;
+    height: 38.2%;
+    overflow: hidden;
+}
+
+
+div.keltoi div.spacing.s1{
+    letter-spacing: 2px;
+}
+
+div.keltoi div.spacing.s2{
+    letter-spacing: 3px;
+}
+
+/* Measures */
+hr.littlefeet{
+    margin-top: 50px;
+}
+hr.feet{
+    margin-top: 150px;
+}
+hr.doublefeet{
+    margin-top: 370px;
+}
+hr.jump{
+    margin-top: 600px;
+}
+hr.superjump{
+    margin-top: 968px;
+}
+hr.hyperjump{
+    margin-top: 1024px;
+}

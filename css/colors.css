@@ -1,0 +1,303 @@
+     /*W&B*/
+     div.keltoi .keltoi-black{
+        background-color:rgb(21,21,21);
+    }
+    
+    div.keltoi .keltoi-gray{
+        background-color:rgb(34,34,34);
+    }
+
+    div.keltoi .keltoi-gray.a1{
+        background-color:rgb(55,55,55);
+    }
+
+    div.keltoi .keltoi-gray.a2{
+        background-color:rgb(89,89,89);
+    }
+
+    div.keltoi .keltoi-gray.a3{
+        background-color:rgb(144,144,144);
+    }
+
+    div.keltoi .keltoi-white{
+        background-color:rgb(233,233,233);
+    }
+
+
+    /*YELLOW*/
+    div.keltoi .keltoi-yellow{
+        background-color:rgb(233,233,21);
+    }
+
+    div.keltoi .keltoi-yellow.a1{
+        background-color:rgb(233,233,34);
+    }
+
+    div.keltoi .keltoi-yellow.a2{
+        background-color:rgb(233,233,55);
+    }
+
+    div.keltoi .keltoi-yellow.a3{
+        background-color:rgb(233,233,89);
+    }
+
+    div.keltoi .keltoi-yellow.a4{
+        background-color:rgb(233,233,144);
+    }
+
+    /*MAGENTA*/
+    div.keltoi .keltoi-magenta{
+        background-color:rgb(233,21,233);
+    }
+
+    div.keltoi .keltoi-magenta.a1{
+        background-color:rgb(233,34,233);
+    }
+
+    div.keltoi .keltoi-magenta.a2{
+        background-color:rgb(233,55,233);
+    }
+
+    div.keltoi .keltoi-magenta.a3{
+        background-color:rgb(233,89,233);
+    }
+
+    div.keltoi .keltoi-magenta.a4{
+        background-color:rgb(233,144,233);
+    }
+
+    /*CYAN*/
+    div.keltoi .keltoi-cyan{
+        background-color:rgb(21,233,233);
+    }
+
+    div.keltoi .keltoi-cyan.a1{
+        background-color:rgb(34,233,233);
+    }
+
+    div.keltoi .keltoi-cyan.a2{
+        background-color:rgb(55,233,233);
+    }
+
+    div.keltoi .keltoi-cyan.a3{
+        background-color:rgb(89,233,233);
+    }
+
+    div.keltoi .keltoi-cyan.a4{
+        background-color:rgb(144,233,233);
+    }
+
+    /*RED*/
+    div.keltoi .keltoi-red{
+        background-color:rgb(233,21,21);
+    }
+
+    div.keltoi .keltoi-red.a1{
+        background-color:rgb(233,34,34);
+    }
+
+    div.keltoi .keltoi-red.a2{
+        background-color:rgb(233,55,55);
+    }
+
+    div.keltoi .keltoi-red.a3{
+        background-color:rgb(233,89,89);
+    }
+
+    div.keltoi .keltoi-red.a4{
+        background-color:rgb(233,144,144);
+    }
+
+    /*BLUE*/
+    div.keltoi .keltoi-blue{
+        background-color:rgb(21,21,233);
+    }
+
+    div.keltoi .keltoi-blue.a1{
+        background-color:rgb(34,34,233);
+    }
+
+    div.keltoi .keltoi-blue.a2{
+        background-color:rgb(55,55,233);
+    }
+
+    div.keltoi .keltoi-blue.a3{
+        background-color:rgb(89,89,233);
+    }
+
+    div.keltoi .keltoi-blue.a4{
+        background-color:rgb(144,144,233);
+    }
+
+    /*GREEN*/
+    div.keltoi .keltoi-green{
+        background-color:rgb(21,233,21);
+    }
+
+    div.keltoi .keltoi-green.a1{
+        background-color:rgb(34,233,34);
+    }
+
+    div.keltoi .keltoi-green.a2{
+        background-color:rgb(55,233,55);
+    }
+
+    div.keltoi .keltoi-green.a3{
+        background-color:rgb(89,233,89);
+    }
+
+    div.keltoi .keltoi-green.a4{
+        background-color:rgb(144,233,144);
+    }
+        
+    /*BLUE*/
+    div.keltoi .keltoi-phi-blue{
+        background-color: rgb(21,34,55);
+    }
+
+    div.keltoi .keltoi-phi-blue.a1{
+        background-color: rgb(34,55,89);
+    }
+
+    div.keltoi .keltoi-phi-blue.a2{
+        background-color: rgb(55,89,144);
+    }
+
+    div.keltoi .keltoi-phi-blue.a3{
+        background-color: rgb(89,144,233);
+    }
+
+    /*GRAPE*/
+    div.keltoi .keltoi-phi-grape{
+        background-color: rgb(34,21,55);
+    }
+
+    div.keltoi .keltoi-phi-grape.a1{
+        background-color: rgb(55,34,89);
+    }
+
+    div.keltoi .keltoi-phi-grape.a2{
+        background-color: rgb(89,55,144);
+    }
+
+    div.keltoi .keltoi-phi-grape.a3{
+        background-color: rgb(144,89,233);
+    }
+
+    /*GREEN*/
+    div.keltoi .keltoi-phi-green{
+        background-color: rgb(21,55,34);
+    }
+
+    div.keltoi .keltoi-phi-green.a1{
+        background-color: rgb(34,89,55);
+    }
+
+    div.keltoi .keltoi-phi-green.a2{
+        background-color: rgb(55,144,89);
+    }
+
+    div.keltoi .keltoi-phi-green.a3{
+        background-color: rgb(89,233,144);
+    }
+
+    /*LEAF*/
+    div.keltoi .keltoi-phi-leaf{
+        background-color: rgb(34,55,21);
+    }
+
+    div.keltoi .keltoi-phi-green.a1{
+        background-color: rgb(55,89,34);
+    }
+
+    div.keltoi .keltoi-phi-green.a2{
+        background-color: rgb(89,144,55);
+    }
+
+    div.keltoi .keltoi-phi-green.a3{
+        background-color: rgb(144,233,89);
+    }
+
+    /*BROWN*/
+    div.keltoi .keltoi-phi-brown{
+        background-color: rgb(55,34,21);
+    }
+
+    div.keltoi .keltoi-phi-brown.a1{
+        background-color: rgb(89,55,34);
+    }
+
+    div.keltoi .keltoi-phi-brown.a2{
+        background-color: rgb(144,89,55);
+    }
+
+    div.keltoi .keltoi-phi-brown.a3{
+        background-color: rgb(233,144,89);
+    }
+
+    /*PINK*/
+    div.keltoi .keltoi-phi-pink{
+        background-color: rgb(55,21,34);
+    }
+
+    div.keltoi .keltoi-phi-brown.a1{
+        background-color: rgb(89,34,55);
+    }
+
+    div.keltoi .keltoi-phi-brown.a2{
+        background-color: rgb(144,55,89);
+    }
+
+    div.keltoi .keltoi-phi-brown.a3{
+        background-color: rgb(233,89,144);
+    }
+
+    /*GOLD*/
+    div.keltoi .keltoi-phi-gold{
+        background-color: rgb(34,34,21);
+    }
+
+    div.keltoi .keltoi-phi-gold.a1{
+        background-color: rgb(55,55,34);
+    }
+
+    div.keltoi .keltoi-phi-gold.a2{
+        background-color: rgb(89,89,55);
+    }
+
+    div.keltoi .keltoi-phi-gold.a3{
+        background-color: rgb(144,144,89);
+    }
+
+    div.keltoi .keltoi-phi-gold.a4{
+        background-color: rgb(233,233,144);
+    }
+
+    /*SKY*/
+    div.keltoi .keltoi-phi-sky{
+        background-color: rgb(21,34,34);
+    }
+
+    div.keltoi .keltoi-phi-sky.a1{
+        background-color: rgb(34,55,55);
+    }
+
+    div.keltoi .keltoi-phi-sky.a2{
+        background-color: rgb(55,89,89);
+    }
+
+    div.keltoi .keltoi-phi-sky.a3{
+        background-color: rgb(89,144,144);
+    }
+
+    div.keltoi .keltoi-phi-sky.a4{
+        background-color: rgb(144,233,233);
+    }
+
+    .text-white{
+        color: rgb(233,233,233);
+    }
+    
+    .text-black{
+        color:rgb(21,21,21);
+    }

@@ -1,0 +1,359 @@
+body.fluid{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: "Lato", sans-serif;
+}
+
+/*Nav*/
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+div.keltoi header ul {
+  list-style-type: none;
+}
+
+div.keltoi header ul li {
+  text-decoration-color: white;
+  display: inline-block;
+  font-size: large;
+  padding: 10px 120px;
+}
+
+div.keltoi header ul li a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+div.keltoi header ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  opacity: 80%;
+}
+
+.stick + .content {
+  padding-top: 60px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+/*Content*/
+
+.radios{
+  border-radius: 7%;
+}
+
+.container {
+position: relative;
+width: 100%;
+}
+
+.image {
+display: block;
+width: 100%
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: 2s ease;
+background-color: whitesmoke;
+border-radius: 7%;
+}
+
+.container:hover .overlay {
+opacity: 0.95;
+}
+
+.text {
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%, -50%);
+text-align: center;
+color: black;
+text-decoration-style: none;
+}
+
+.text:hover {
+color: red;
+text-decoration: none;
+}
+
+.hrcolor {
+  border-color: black;
+}
+
+/*Footer*/
+
+textarea{
+  resize: none;
+  width: 100%;
+  height: 133px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+div.rodape footer{
+  padding: 0;
+  color: #202020;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content1{
+  position: fixed;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text-footer{
+  font-size: 19px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+.content1 .p{
+  font-size: 19px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: whitesmoke;
+}
+
+.main-content{
+  display: flex;
+}
+.main-content .footerbox{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.footerbox h2{
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footerbox .content2{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.footerbox .content2:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: whitesmoke;
+}
+.footerbox .content2:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: linear-gradient(to right, red, yellow);
+  top: -10px;
+}
+
+.left .content2 p{
+  text-align: justify;
+}
+.left .content2 .social{
+  margin: 20px 0 0 0;
+}
+.left .content2 .social a{
+  padding: 0 2px;
+}
+.left .content2 .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color:white;
+}
+.left .content2 .social a span:hover{
+  background: linear-gradient(to right, yellow, red );
+}
+
+.center .content2 .fas{
+  font-size: 19px;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+.center .content2 .fas:hover{
+  background: linear-gradient(to right, yellow, red );
+}
+.center .content2 .text-footer{
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content2 .phone{
+  margin: 15px 0;
+}
+
+.right form .text-footer{
+  font-size: 19px;
+  margin-bottom: 2px;
+  color: #202020;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form .msgForm{
+  width: 100%;
+  font-size: 19px;
+  background: rgb(179, 178, 178);
+  padding-left: 10px;
+  border: 1px solid whitesmoke;
+}
+.right form input:focus,
+.right form .msgForm:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #202020;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: linear-gradient(to right, yellow, red );
+}
+
+.right .content2 .fas{
+  font-size: 19px;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+.right .content2 .fas:hover{
+  background: linear-gradient(to right, yellow, red );
+}
+.right .content2 .text-footer{
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.right .content2 .phone{
+  margin: 15px 0;
+}
+
+
+.bottom h6{
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  background: whitesmoke;
+}
+.bottom h6 span{
+  color: #202020;
+}
+.bottom h6 a{
+  color: #3f20f1;
+  text-decoration: none;
+}
+.bottom h6 a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .footerbox{
+    margin: 5px 0;
+  }
+}
+
+.image-brand-icon{
+  width: 23%;
+}
+
+@media (min-width: 987px){
+  .image-brand-icon{
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 610px){
+  .image-brand-icon{
+    margin-top: 0.5%;
+  }
+  #text-about{
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 610px){
+  #navSticky{
+    position: relative;
+    justify-items: center;
+    display: flex;
+  }
+}

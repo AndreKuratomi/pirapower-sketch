@@ -1,0 +1,197 @@
+/*Footer*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+div.rodape footer{
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content1{
+  position: fixed;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text-footer{
+  font-size: 19px;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 19px;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .footerbox{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.footerbox h2{
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footerbox .content2{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.footerbox .content2:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.footerbox .content2:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #2069f1;
+  top: -10px;
+}
+.left .content2 p{
+  text-align: justify;
+}
+.left .content2 .social{
+  margin: 20px 0 0 0;
+}
+.left .content2 .social a{
+  padding: 0 2px;
+}
+.left .content2 .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color:white;
+}
+/*.left .content2 .social a span:hover{
+  background: #2069f1;
+}*/
+.center .content2 .fas{
+  font-size: 19px;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+.center .content2 .fas:hover{
+  background: #2069f1;
+}
+.center .content2 .text-footer{
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content2 .phone{
+  margin: 15px 0;
+}
+.right form .text-footer{
+  font-size: 19px;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form .msgForm{
+  width: 100%;
+  font-size: 19px;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form .msgForm:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #2069f1;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom h6{
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  background: #151515;
+}
+.bottom h6 span{
+  color: #656565;
+}
+.bottom h6 a{
+  color: #3f20f1;
+  text-decoration: none;
+}
+.bottom h6 a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .footerbox{
+    margin: 5px 0;
+  }
+}
+
+.image-brand-icon{
+    width: 23%;
+}
+
+@media (min-width: 987px){
+    .image-brand-icon{
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 610px){
+    .image-brand-icon{
+        margin-top: 0.5%;
+    }
+    #text-about{
+        margin-top: 10%;
+    }
+}
